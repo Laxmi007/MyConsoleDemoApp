@@ -34,7 +34,7 @@ namespace UnitTestClassLibrary
             string z = pobj.Login("Admin", "Admin");
             Assert.AreEqual("Userid or password could not be Empty.", y);
             Assert.AreEqual("Incorrect UserId or Password.", x);
-            Assert.AreEqual("Welcome Admin.", z);
+            Assert.AreEqual("Welcome Admin!", z);
         }
         [Test]
         public void getuserdetails()
