@@ -10,7 +10,13 @@ namespace MyConsoleDemoApp
     {
         public static void Main(string[] args)
         {
-           
+            Program p = new Program();
+            foreach (Employee e in p.AllUsers())
+            {
+                Console.WriteLine(e.Name);
+            }
+            
+            Console.ReadKey();
             
         }
 
