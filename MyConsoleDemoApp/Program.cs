@@ -24,7 +24,7 @@ namespace MyConsoleDemoApp
         {
             if (string.IsNullOrEmpty(UserId) || string.IsNullOrEmpty(Password))
             {
-                return "Userid or password could not be Empty.";
+                return "Userid or password should not be Empty.";
             }
             else
             {
